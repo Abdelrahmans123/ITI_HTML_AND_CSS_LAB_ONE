@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+}
+.header {
+	background-color: #333333;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+.header .header_container {
+	width: 50%;
+	margin: 20px auto;
+}
+.header .header_container h1,
+.header .header_container p {
+	margin: 20px 0;
+}
+.header .header_container h1 {
+	font-size: 36px;
+}
+.header .header_container p {
+	font-size: 24px;
+}
+.header .header_container .nav_links {
+	margin-top: 100px;
+}
+.header .header_container .nav_links ul {
+	list-style: none;
+	padding: 0;
+}
+.header .header_container .nav_links ul li {
+	display: inline-block;
+	margin: 0 15px;
+	font-weight: bold;
+}
+.about {
+	margin: 50px 0;
+	text-align: center;
+}
+.about .about_container {
+	width: 60%;
+	margin: 0 auto;
+}
+.about h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.about p {
+	font-size: 18px;
+	line-height: 1.6;
+}
+.about img {
+	max-width: 20%;
+	height: auto;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+.skills {
+	background-color: #f4f4f4;
+	padding: 50px 0;
+	text-align: center;
+}
+.skills .skills_container {
+	width: 60%;
+	margin: 0 auto;
+}
+.skills h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.skills ul {
+	list-style: none;
+	padding: 0;
+}
+.skills ul li {
+	font-size: 18px;
+	margin: 10px 0;
+	display: inline-block;
+	width: 15%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.projects {
+	margin: 50px 0;
+	text-align: center;
+}
+.projects .projects_container {
+	width: 60%;
+	margin: 0 auto;
+}
+.projects h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.projects .projects_container .project_content .project_item {
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	display: inline-block;
+	width: 40%;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	margin-left: 20px;
+}
+.projects .projects_container .project_content .project_item h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.projects .projects_container .project_content .project_item p {
+	margin-bottom: 20px;
+}
+.projects .projects_container .project_content .project_item a {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 15px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.projects .projects_container .project_content .project_item a:hover {
+	background-color: #555;
+}
+.contact {
+	margin: 50px 0;
+	text-align: center;
+}
+.contact .contact_container {
+	width: 60%;
+	margin: 0 auto;
+}
+.contact .contact_container h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.contact .contact_container p {
+	margin-bottom: 10px;
+}
+.contact .contact_container p:first-of-type {
+	margin-bottom: 50px;
+}
+
+.contact .contact_container a {
+	text-decoration: none;
+	color: blue;
+	margin: 0 10px;
+}
+.footer {
+	margin-top: 50px;
+	text-align: center;
+	padding: 20px;
+	background-color: #333;
+	color: white;
+}
